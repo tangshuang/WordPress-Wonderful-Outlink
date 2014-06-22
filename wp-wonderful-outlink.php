@@ -91,7 +91,7 @@ function wonderful_links_seo_setup(){
 		wp_redirect($uri);
 		exit;
 	}
-	add_submenu_page('plugins.php','SEO网址跳转 Wonderful Links SEO','WonderfulLinksSEO','edit_theme_options','wonderful_links_seo','wonderful_links_seo_admin');
+	add_submenu_page('plugins.php','完美外链 Wonderful Links SEO','WonderfulLinksSEO','edit_theme_options','wonderful_links_seo','wonderful_links_seo_admin');
 }
 function wonderful_links_seo_admin(){
 	global $wpdb;
